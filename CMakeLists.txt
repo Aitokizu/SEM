@@ -3,4 +3,4 @@ project(SEM C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(SEM main.c)
+add_executable(SEM main.c stud_info.h book_info.h)
